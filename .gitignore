@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+.env
+
+# --- Cobertura y pruebas ---
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.pytest_cache/
+
+# --- VS Code (se conserva la configuración compartible) ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+*.code-workspace
+.history/
+
+# --- Claude Code ---
+.claude/
+CLAUDE.local.md
+
+# --- Sistema operativo ---
+Thumbs.db
+desktop.ini
+.DS_Store
